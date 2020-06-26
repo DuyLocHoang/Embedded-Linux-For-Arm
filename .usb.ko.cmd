@@ -1,0 +1,1 @@
+cmd_/home/duyloc/Modules/USB-Test/usb.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/duyloc/Modules/USB-Test/usb.ko /home/duyloc/Modules/USB-Test/usb.o /home/duyloc/Modules/USB-Test/usb.mod.o ;  true
